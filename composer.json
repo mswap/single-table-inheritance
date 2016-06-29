@@ -25,14 +25,18 @@
   },
   "autoload": {
     "psr-4": {
-      "mswap\\SingleTableInheritance\\": "src/"
+      "Nanigans\\SingleTableInheritance\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "mswap\\SingleTableInheritance\\Tests\\": "tests/"
+      "Nanigans\\SingleTableInheritance\\Tests\\": "tests/"
     }
   },
-  
+  "extra": {
+    "branch-alias": {
+        "dev-master": "0.7.x-dev"
+    }
+  },
   "minimum-stability": "stable"
 }
