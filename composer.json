@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Nanigans\\SingleTableInheritance\\": "src/"
+      "mswap\\SingleTableInheritance\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Nanigans\\SingleTableInheritance\\Tests\\": "tests/"
+      "mswap\\SingleTableInheritance\\Tests\\": "tests/"
     }
   },
   
