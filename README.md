@@ -181,5 +181,7 @@ First, Mark Smith has an excellent article [Single Table Inheritance in Laravel 
 The use of Traits was heavy influence by the Eloquent's `SoftDeletingTrait` and the excellent [Validating Trait](https://github.com/dwightwatson/validating). 
 
 
+# Modifications for MongoDB 
+This version contains modification required to work this code with MongoDB. ( This version is  tested and work only for mondodb)
 
 

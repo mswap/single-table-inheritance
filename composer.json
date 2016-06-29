@@ -7,7 +7,11 @@
     {
       "name": "Jon Palmer",
       "email": "jpalmer@nanigans.com"
-    }
+    },
+    {
+      "name": "Swapnali M",
+      "email": "me@swapnali.com"
+    }  
   ],
   "require": {
     "php": ">= 5.5.9",

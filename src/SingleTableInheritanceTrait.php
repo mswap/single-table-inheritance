@@ -172,7 +172,7 @@ trait SingleTableInheritanceTrait {
   public function newFromBuilder($attributes = array(), $connection = null) {
     $typeField = static::$singleTableTypeField;
 
-    $classType = isset($attributes->$typeField) ? $attributes->$typeField : null;
+    $classType = isset($attributes[$typeField]) ? $attributes[$typeField] : null;
 
     if ($classType !== null) {
       $childTypes = static::getSingleTableTypeMap();
@@ -197,7 +197,7 @@ trait SingleTableInheritanceTrait {
    * @return string the qualified column name
    */
   public function getQualifiedSingleTableTypeColumn() {
-    return $this->getTable() . '.' . static::$singleTableTypeField;
+    return static::$singleTableTypeField;
   }
 
   public function setFilteredAttributes(array $attributes) {
