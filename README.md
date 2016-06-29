@@ -1,3 +1,6 @@
+This fork contains modification required to work this code with MongoDB. ( This version is  tested and work only for mongodb)
+
+
 Single Table Inheritance
 ========================
 
@@ -23,7 +26,7 @@ Single Table Inheritance is a trait for Laravel 5.2+ Eloquent models that allows
 Simply add the package to your `composer.json` file and run `composer update`.
 
 ```
-"nanigans/single-table-inheritance": "0.6.*"
+"mswap/single-table-inheritance": "0.1"
 ```
 
 Or go to your project directory where the `composer.json` file is located and type:
