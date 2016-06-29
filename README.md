@@ -1,4 +1,7 @@
 This fork contains modification required to work this code with MongoDB. ( This version is  tested and work only for mongodb)
+Fork from 
+https://github.com/Nanigans/single-table-inheritance
+
 
 
 Single Table Inheritance
@@ -26,13 +29,13 @@ Single Table Inheritance is a trait for Laravel 5.2+ Eloquent models that allows
 Simply add the package to your `composer.json` file and run `composer update`.
 
 ```
-"mswap/single-table-inheritance": "1.0"
+"mswap/single-table-inheritance": "0.1.0"
 ```
 
 Or go to your project directory where the `composer.json` file is located and type:
 
 ```sh
-composer require "mswap/single-table-inheritance:1.0"
+composer require "mswap/single-table-inheritance:0.1.0"
 ```
 
 # Overview
@@ -40,7 +43,7 @@ composer require "mswap/single-table-inheritance:1.0"
 Getting started with the Single Table Inheritance Trait is simple. Add the constraint and add a few properties to your models. A complete example of a `Vehicle` super class with two subclasses `Truck` and `Car` is given by
 
 ```php
-use Nanigans\SingleTableInheritance\SingleTableInheritanceTrait;
+use mswap\SingleTableInheritance\SingleTableInheritanceTrait;
 
 class Vehicle extends Model
 {
@@ -86,7 +89,7 @@ In each concrete class set the `protected static` property `$singleTableType` to
 It's not uncommon to have many levels in your class hierarchy. Its easy to define that structure by declaring subclasses at each level. For example suppose you have a Vehicle super class with two subclasses Bike and MotorVehicle. MotorVehicle in trun has two subclasses Car and Truck. You would define the classes like this:
 
 ```php
-use Nanigans\SingleTableInheritance\SingleTableInheritanceTrait;
+use mswap\SingleTableInheritance\SingleTableInheritanceTrait;
 
 class Vehicle extends Model
 {
