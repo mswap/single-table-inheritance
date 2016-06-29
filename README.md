@@ -182,6 +182,6 @@ The use of Traits was heavy influence by the Eloquent's `SoftDeletingTrait` and 
 
 
 # Modifications for MongoDB 
-This version contains modification required to work this code with MongoDB. ( This version is  tested and work only for mondodb)
+This version contains modification required to work this code with MongoDB. ( This version is  tested and work only for mongodb)
 
 
